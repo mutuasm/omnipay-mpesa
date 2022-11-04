@@ -1,0 +1,34 @@
+{
+    "name": "mwanziamutua/omnipay-mpesa",
+    "type": "library",
+    "description": "lipa na mpesa omnipay gateway",
+    "keywords": [
+        "omnipay",
+        "mpesa",
+        "lipa na mpesa"
+    ],
+    "homepage": "https://github.com/mwanziamutua/omnipay-mpesa",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mwanzia Mutua",
+            "email": "atecdgtl@gmail.com",
+            "homepage": "https://atec.ke"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Mpesa\\": "src"
+        }
+    },
+   "require": {
+        "php": "^8.0",
+        "omnipay/common": "^3"
+    },
+     "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0-dev"
+        }
+    }
+    ,"minimum-stability": "stable"
+}
